@@ -9,10 +9,23 @@
 /* Begin PBXBuildFile section */
 		7F1F1C521C9E20BB00D82411 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F1C511C9E20BB00D82411 /* main.m */; };
 		7F1F1C551C9E20BB00D82411 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F1C541C9E20BB00D82411 /* AppDelegate.m */; };
-		7F1F1C581C9E20BB00D82411 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F1C571C9E20BB00D82411 /* ViewController.m */; };
 		7F1F1C5B1C9E20BB00D82411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F1C591C9E20BB00D82411 /* Main.storyboard */; };
 		7F1F1C5D1C9E20BB00D82411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F1C5C1C9E20BB00D82411 /* Assets.xcassets */; };
 		7F1F1C601C9E20BB00D82411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F1C5E1C9E20BB00D82411 /* LaunchScreen.storyboard */; };
+		7F1F1C741C9E224400D82411 /* card_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F1C691C9E224400D82411 /* card_bg.png */; };
+		7F1F1C751C9E224400D82411 /* colour1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F1C6A1C9E224400D82411 /* colour1.png */; };
+		7F1F1C761C9E224400D82411 /* colour2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F1C6B1C9E224400D82411 /* colour2.png */; };
+		7F1F1C771C9E224400D82411 /* colour3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F1C6C1C9E224400D82411 /* colour3.png */; };
+		7F1F1C781C9E224400D82411 /* colour4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F1C6D1C9E224400D82411 /* colour4.png */; };
+		7F1F1C791C9E224400D82411 /* colour5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F1C6E1C9E224400D82411 /* colour5.png */; };
+		7F1F1C7A1C9E224400D82411 /* colour6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F1C6F1C9E224400D82411 /* colour6.png */; };
+		7F1F1C7B1C9E224400D82411 /* colour7.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F1C701C9E224400D82411 /* colour7.png */; };
+		7F1F1C7C1C9E224400D82411 /* colour8.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F1C711C9E224400D82411 /* colour8.png */; };
+		7F1F1C7D1C9E224400D82411 /* iphone_padding_reference.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F1C721C9E224400D82411 /* iphone_padding_reference.jpg */; };
+		7F1F1C7E1C9E224400D82411 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F1C731C9E224400D82411 /* logo.png */; };
+		7F1F1C821C9E352E00D82411 /* CardsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F1C811C9E352E00D82411 /* CardsCollectionViewController.m */; };
+		7F1F1C861C9E4FDD00D82411 /* SingleCardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F1C841C9E4FDD00D82411 /* SingleCardCollectionViewCell.m */; };
+		7F1F1C871C9E4FDD00D82411 /* SingleCardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F1C851C9E4FDD00D82411 /* SingleCardCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +33,26 @@
 		7F1F1C511C9E20BB00D82411 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F1F1C531C9E20BB00D82411 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F1F1C541C9E20BB00D82411 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7F1F1C561C9E20BB00D82411 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7F1F1C571C9E20BB00D82411 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7F1F1C5A1C9E20BB00D82411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F1F1C5C1C9E20BB00D82411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F1F1C5F1C9E20BB00D82411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F1F1C611C9E20BB00D82411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1F1C691C9E224400D82411 /* card_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_bg.png; sourceTree = "<group>"; };
+		7F1F1C6A1C9E224400D82411 /* colour1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour1.png; sourceTree = "<group>"; };
+		7F1F1C6B1C9E224400D82411 /* colour2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour2.png; sourceTree = "<group>"; };
+		7F1F1C6C1C9E224400D82411 /* colour3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour3.png; sourceTree = "<group>"; };
+		7F1F1C6D1C9E224400D82411 /* colour4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour4.png; sourceTree = "<group>"; };
+		7F1F1C6E1C9E224400D82411 /* colour5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour5.png; sourceTree = "<group>"; };
+		7F1F1C6F1C9E224400D82411 /* colour6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour6.png; sourceTree = "<group>"; };
+		7F1F1C701C9E224400D82411 /* colour7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour7.png; sourceTree = "<group>"; };
+		7F1F1C711C9E224400D82411 /* colour8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour8.png; sourceTree = "<group>"; };
+		7F1F1C721C9E224400D82411 /* iphone_padding_reference.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone_padding_reference.jpg; sourceTree = "<group>"; };
+		7F1F1C731C9E224400D82411 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		7F1F1C801C9E352E00D82411 /* CardsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsCollectionViewController.h; sourceTree = "<group>"; };
+		7F1F1C811C9E352E00D82411 /* CardsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsCollectionViewController.m; sourceTree = "<group>"; };
+		7F1F1C831C9E4FDD00D82411 /* SingleCardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleCardCollectionViewCell.h; sourceTree = "<group>"; };
+		7F1F1C841C9E4FDD00D82411 /* SingleCardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleCardCollectionViewCell.m; sourceTree = "<group>"; };
+		7F1F1C851C9E4FDD00D82411 /* SingleCardCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleCardCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +85,10 @@
 		7F1F1C4F1C9E20BB00D82411 /* colourMemory */ = {
 			isa = PBXGroup;
 			children = (
+				7F1F1C7F1C9E274200D82411 /* Classes */,
+				7F1F1C681C9E224400D82411 /* Resources */,
 				7F1F1C531C9E20BB00D82411 /* AppDelegate.h */,
 				7F1F1C541C9E20BB00D82411 /* AppDelegate.m */,
-				7F1F1C561C9E20BB00D82411 /* ViewController.h */,
-				7F1F1C571C9E20BB00D82411 /* ViewController.m */,
 				7F1F1C591C9E20BB00D82411 /* Main.storyboard */,
 				7F1F1C5C1C9E20BB00D82411 /* Assets.xcassets */,
 				7F1F1C5E1C9E20BB00D82411 /* LaunchScreen.storyboard */,
@@ -77,6 +104,36 @@
 				7F1F1C511C9E20BB00D82411 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F1F1C681C9E224400D82411 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F1F1C691C9E224400D82411 /* card_bg.png */,
+				7F1F1C6A1C9E224400D82411 /* colour1.png */,
+				7F1F1C6B1C9E224400D82411 /* colour2.png */,
+				7F1F1C6C1C9E224400D82411 /* colour3.png */,
+				7F1F1C6D1C9E224400D82411 /* colour4.png */,
+				7F1F1C6E1C9E224400D82411 /* colour5.png */,
+				7F1F1C6F1C9E224400D82411 /* colour6.png */,
+				7F1F1C701C9E224400D82411 /* colour7.png */,
+				7F1F1C711C9E224400D82411 /* colour8.png */,
+				7F1F1C721C9E224400D82411 /* iphone_padding_reference.jpg */,
+				7F1F1C731C9E224400D82411 /* logo.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7F1F1C7F1C9E274200D82411 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7F1F1C801C9E352E00D82411 /* CardsCollectionViewController.h */,
+				7F1F1C811C9E352E00D82411 /* CardsCollectionViewController.m */,
+				7F1F1C831C9E4FDD00D82411 /* SingleCardCollectionViewCell.h */,
+				7F1F1C841C9E4FDD00D82411 /* SingleCardCollectionViewCell.m */,
+				7F1F1C851C9E4FDD00D82411 /* SingleCardCollectionViewCell.xib */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +193,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F1F1C761C9E224400D82411 /* colour2.png in Resources */,
+				7F1F1C741C9E224400D82411 /* card_bg.png in Resources */,
 				7F1F1C601C9E20BB00D82411 /* LaunchScreen.storyboard in Resources */,
+				7F1F1C791C9E224400D82411 /* colour5.png in Resources */,
+				7F1F1C7E1C9E224400D82411 /* logo.png in Resources */,
+				7F1F1C7D1C9E224400D82411 /* iphone_padding_reference.jpg in Resources */,
+				7F1F1C7A1C9E224400D82411 /* colour6.png in Resources */,
+				7F1F1C871C9E4FDD00D82411 /* SingleCardCollectionViewCell.xib in Resources */,
 				7F1F1C5D1C9E20BB00D82411 /* Assets.xcassets in Resources */,
+				7F1F1C7C1C9E224400D82411 /* colour8.png in Resources */,
 				7F1F1C5B1C9E20BB00D82411 /* Main.storyboard in Resources */,
+				7F1F1C751C9E224400D82411 /* colour1.png in Resources */,
+				7F1F1C781C9E224400D82411 /* colour4.png in Resources */,
+				7F1F1C771C9E224400D82411 /* colour3.png in Resources */,
+				7F1F1C7B1C9E224400D82411 /* colour7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F1F1C581C9E20BB00D82411 /* ViewController.m in Sources */,
+				7F1F1C861C9E4FDD00D82411 /* SingleCardCollectionViewCell.m in Sources */,
 				7F1F1C551C9E20BB00D82411 /* AppDelegate.m in Sources */,
+				7F1F1C821C9E352E00D82411 /* CardsCollectionViewController.m in Sources */,
 				7F1F1C521C9E20BB00D82411 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
