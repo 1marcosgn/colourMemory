@@ -170,7 +170,8 @@ static NSString * const reuseIdentifier = @"Cell";
     }
     else if (attemptsCounts == 2)
     {
-        [self resetCards];
+        //[self resetCards];
+        [self performSelector:@selector(resetCards) withObject:self afterDelay:1.0];
         attemptsCounts = 0;
         
     }
